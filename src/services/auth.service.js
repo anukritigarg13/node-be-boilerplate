@@ -1,7 +1,7 @@
 const axios = require('axios').default;
 
 const verifyToken = async (token) => {
-  const response = await axios.post(`http://${process.env.AUTH_HOST}:7000/validateToken`, {}, {
+  const response = await axios.post(`http://${process.env.AUTH_HOST}:${AUTH_PORT}/validateToken`, {}, {
     headers:
     { Authorization: `Bearer ${token}` },
   });
