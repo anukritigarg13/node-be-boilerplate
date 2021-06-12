@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BoilerPlate
+spec:
+  type: service
+  lifecycle: experimental
+  owner: anukritigarg13
