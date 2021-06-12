@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: {{cookiecutter.name | jsonify}}
+  description: Node-Boilerplate
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Mckinsey and company
